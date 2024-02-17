@@ -1,15 +1,16 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import MyConditionalRendering from './components/MyConditionalRendering.vue';
+
+
+
 </script>
 
+
 <template>
-  <div class="container">
-    <HelloWorld  />
-  </div>
+
+  <MyConditionalRendering/>
+
 </template>
 
-<style scoped>
-.container{
-  background-color: antiquewhite;
-}
-</style>
+
+<style scoped></style>
